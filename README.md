@@ -1,5 +1,5 @@
-## Graphical User Interface: GUI
-
+# Graphical User Interface: GUI
+## Measurement
 Here are codes to create a desktop GUI for devices typically used in RF labs. AWGs, VNAs and Oscilloscopes typically require user's change measurement or signal-generator settings manually, using keypads on the device.
 We hope to create a direct link between user's desktop computers and the measurment device to fascillitate quick and easy settings' change. These codes are used primarily for measurement and simulation purposes.
 We will use the python libraries **tk** and **pyvisa** to establish connection with the device and create the GUI respectively.
@@ -12,4 +12,4 @@ We use SCPI commands (standard commands) to change the device settings: each dev
 import pyvisa
 import tikzpicture
 ```
-# Simulation
+## Simulation
