@@ -13,6 +13,11 @@ import pyvisa
 import tk
 ```
 
+To install pyvisa
+``` shell
+pip install pyvisa
+```
+
 ### Establishing VISA connection
 Before we can send commands to these devices, we need to establish either a USB or network connection with the device. We also need to install the proper drivers and packages onto our desktop computer.
 - IO libraries suite
