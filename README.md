@@ -23,8 +23,8 @@ We then need to establish a VISA connection with the device.
 - *IDN?
 
 The drivers required depend on the device manufactoror.
-- Keysight/Agilent
-- Tektronix
+- Keysight/Agilent [Connection Expert](https://www.keysight.com/us/en/lib/software-detail/computer-software/io-libraries-suite-downloads-2175637.html)
+- Tektronix: [TekVISA](https://www.tek.com/en/support/software/driver/tekvisa-connectivity-software-v411)
 
   
 ## Simulation
