@@ -10,7 +10,7 @@ We use SCPI commands (standard commands) to change the device settings: each dev
 > Both python libraries are open-source. We include links to the [tk](https://docs.python.org/3/library/tk.html) and [pyvisa](https://pyvisa.readthedocs.io/en/latest/) documentation.
 ``` python
 import pyvisa
-import tikzpicture
+import tk
 ```
 ## Simulation
 We hope to extend scripted GUI develop additional-features for our full-wave solver simulation tools. Tools such as Sim4Life have a built-in-GUI for basic to advanced manipulation of model geometires and solution settings. Features that are unavailable in this built-in-GUI have to implemented in user-coded jupyter-notebook python scripts. Handling of these python-scripts can be improved by a simple GUI interface for these additional-features. User's that are unfamiliar with the python-code will be able to use these additional-features in short-period of time.
