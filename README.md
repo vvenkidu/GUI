@@ -5,7 +5,7 @@ We hope to create a direct link between user's desktop computers and the measurm
 We will use the python libraries **tk** and **pyvisa** to establish connection with the device and create the GUI respectively.
 We use SCPI commands (standard commands) to change the device settings: each device has its own set of commands that follow the SCPI structure. Documentation for SCPI commands, including notes about their structure and implementation, are linked bellow.
 - VNA :
-- AFG :
+- AFG : [AFG 3000](https://www.tek.com/en/function-generator/afg3000-function-generator-manual/afg3000-series)
 - OSC :
 > Both python libraries are open-source. We include links to the [tk](https://docs.python.org/3/library/tk.html) and [pyvisa](https://pyvisa.readthedocs.io/en/latest/) documentation.
 ``` python
